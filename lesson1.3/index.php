@@ -52,10 +52,10 @@ $data_continents = [
 (array)$data_africa = explode( ',', $input_africa ) ;
 //string implode ( string $glue , array $pieces )
 
-//$input_europe = split(" ",$input_europe); //считаю количество слов разделенных пробелами
+$input_europe = split(" ",$input_europe); //считаю количество слов разделенных пробелами
 
-//var_dump ($input_europe);
-//echo "Количество слов в строке = " , sizeof($input_europe) ;//4
+var_dump ($input_europe);
+echo "Количество слов в строке = " , sizeof($input_europe) ;//4
 
 
 $numb_element_europe = count($data_europe);//4
@@ -64,9 +64,16 @@ $numb_element_africa = count($data_africa);
 
 
 
-
-
 //mb_strlen(); Подсчет символов в строке
+
+
+
+
+
+
+
+
+
   /* STEP 4
   Задача: Составить нове комбинации из отобранных слов и вывести их на экран
   Решение:
@@ -89,7 +96,7 @@ $north_america = ['Dasypus pilosus','Canis lupus','Caluromys philander'];
 $south_america = ['Morphnus guianensis','Panthera onca','Eunectes murinus','Leopardus pardalis','Myrmecophaga tridactyla'];
 $ausralia = ['Macropus','Varanus varius','Ornithorhynchus anatinus'];
 
-// Создаем ассоциативный массив. key может быть либо типа integer, либо типа string. value может быть любого типа.
+// Создаем массив. key может быть либо типа integer, либо типа string. value может быть любого типа.
 
 $continents = [
     "Европпа" => $europe,
@@ -100,22 +107,8 @@ $continents = [
     "Австралия" => $ausralia
     ];
     $continents;
-
-    foreach ($continents as $value) {
-        foreach ($value as $europe) {
-            echo "$europe </br>";
-            $counter = count($europe);
-            echo $counter;
-          if ($counter = 2){//отбираем животных из 2х слов
-            //  echo $key, '</br>';
-          }
-    }
-  }
-
-
-
     //Переменная содержит двумерный массив из 6 континентов и список животных, на них обитающих
-shuffle($continents);
+
    #Неработает с двумерным массивом var_dump($continents);
 // for ($i=0; $i < count($continents); $i++){
 //     echo $continents[$i];
