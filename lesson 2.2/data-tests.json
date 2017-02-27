@@ -2,21 +2,24 @@
   "testID": "1",
   "testName": "Угудай сколько стульев",
   "Questions": "Сколько стульев?",
-  "Reply": "12"  
+  "trueReply": "12"  
 },
 {
-  "testName": "2",
-  "Questions": "Сколько стульев?",
-  "Reply": "12" 
+  "testID": "2",
+  "testName": "Угадай фамилию персонажа",
+  "Questions": "Сэр Джейми ...?",
+  "trueReply": "Ланистер" 
 },
 {
-  "testName": "3",
-  "Questions": "Сколько стульев?",
-  "Reply": "12" 
+  "testID": "3",
+  "testName": "Угадай пол персонажа (м,ж)",
+  "Questions": "Варез",
+  "trueReply": "м" 
 },
 {
- "testName": "4",
- "Questions": "Сколько стульев?",
- "Reply": "12" 
+ "testID": "4",
+ "testName": "Угадай титул персонажа",
+ "Questions": "Джон Сноу",
+ "trueReply": "лорд" 
 }
 ]

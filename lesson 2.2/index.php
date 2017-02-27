@@ -14,5 +14,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+		<div class="col-sx-12"><small>Задание 2.2</small>
+			<h1 class="text-center text-capitalize">Генератор тестов на PHP и JSON</h1> 
+		</div>
+	</div>
+  </div>
 </body>
 </html>
