@@ -5,3 +5,4 @@ function getuserdata()
     $userdata = json_decode($data, true);
     return $userdata ;
 }
+?>

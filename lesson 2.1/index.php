@@ -1,4 +1,6 @@
 <?php
+	ini_set('display_errors',1);
+	error_reporting(E_ALL ^E_NOTICE);
     require_once 'functions.php';
 ?>
 <!DOCTYPE html>
@@ -26,7 +28,7 @@
         </tr>
     </thead>
     <tbody>
-    <?php  foreach (getuserdata() as $item) {     ?>
+    <?php  foreach ( getuserdata() as $item ) {   ?>
         <tr>
             <td><?= $item['firstName'] ?></td>
             <td><?= $item['lastName'] ?></td>
@@ -35,8 +37,8 @@
         </tr>
 <?php
 continue;
-return null;
-}?>
+return;  }	
+?>
     </tbody>
     </table>
   </div>
